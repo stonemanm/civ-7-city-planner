@@ -43,24 +43,24 @@ export const BIOME_KEY_MAP = Object.fromEntries(
 
 export const BUILDINGS = {
   culture: { label: "Culture", color: "#9b59b6", icon: "♪" },
+  happiness: { label: "Happiness", color: "#e67e22", icon: "☺" },
   food: { label: "Food", color: "#27ae60", icon: "✿" },
   gold: { label: "Gold", color: "#f1c40f", icon: "◉" },
-  happiness: { label: "Happiness", color: "#e67e22", icon: "☺" },
-  production: { label: "Production", color: "#95a5a6", icon: "⚒" },
   science: { label: "Science", color: "#2eaff5", icon: "⚗︎" },
-  wonder: { label: "Wonder", color: "#e74c3c", icon: "⛩" },
+  production: { label: "Production", color: "#95a5a6", icon: "⚒" },
   warehouse: { label: "Warehouse", color: "#888888", icon: "▣" },
+  wonder: { label: "Wonder", color: "#e74c3c", icon: "⛩" },
 };
 
 export const FEATURES = {
   mountain: { label: "Mountain", icon: "⛰", color: "#c8b090", blocking: true },
-  resource: { label: "Resource", icon: "◆", color: "#f0d050", blocking: true },
   naturalWonder: {
     label: "Natural Wonder",
     icon: "✦",
     color: "#e060d0",
     blocking: true,
   },
+  resource: { label: "Resource", icon: "◆", color: "#f0d050", blocking: true },
   river: {
     label: "Navigable River",
     icon: "≋",

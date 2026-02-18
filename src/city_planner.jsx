@@ -565,22 +565,10 @@ const RightSidebar = () => (
     <div className="text-sm text-slate-400 space-y-3">
       <div>
         <div>
-          <span style={{ color: "#95a5a6" }}>⚙ Production</span>
-          {"  "}
-          <span style={{ color: "#2eaff5" }}>⬡ Science</span>
+          <span style={{ color: "#f8d060" }}>★ Palace</span>
         </div>
         <div className="text-slate-500 pl-2 text-xs leading-relaxed mt-0.5">
-          +1 per adjacent Resource tile or Wonder building
-        </div>
-      </div>
-      <div>
-        <div>
-          <span style={{ color: "#27ae60" }}>✿ Food</span>
-          {"  "}
-          <span style={{ color: "#f1c40f" }}>◉ Gold</span>
-        </div>
-        <div className="text-slate-500 pl-2 text-xs leading-relaxed mt-0.5">
-          +1 per Navigable River, Marine biome, or Wonder building
+          +1 per adjacent Quarter (tile with 2 buildings)
         </div>
       </div>
       <div>
@@ -595,10 +583,22 @@ const RightSidebar = () => (
       </div>
       <div>
         <div>
-          <span style={{ color: "#f8d060" }}>★ Palace</span>
+          <span style={{ color: "#27ae60" }}>✿ Food</span>
+          {"  "}
+          <span style={{ color: "#f1c40f" }}>◉ Gold</span>
         </div>
         <div className="text-slate-500 pl-2 text-xs leading-relaxed mt-0.5">
-          +1 per adjacent Quarter (tile with 2 buildings)
+          +1 per Navigable River, Marine biome, or Wonder building
+        </div>
+      </div>
+      <div>
+        <div>
+          <span style={{ color: "#2eaff5" }}>⬡ Science</span>
+          <span style={{ color: "#95a5a6" }}>⚙ Production</span>
+          {"  "}
+        </div>
+        <div className="text-slate-500 pl-2 text-xs leading-relaxed mt-0.5">
+          +1 per adjacent Resource tile or Wonder building
         </div>
       </div>
     </div>
@@ -676,18 +676,6 @@ const RightSidebar = () => (
           />
         </svg>
         <span>City limits boundary (between rings 3 and 4)</span>
-      </div>
-      {/* Blocking features */}
-      <div className="flex items-start gap-3">
-        <span
-          className="text-xl shrink-0 mt-0.5 leading-none text-center w-5.5"
-          style={{ color: "#c8b090" }}
-        >
-          ⛰
-        </span>
-        <span>
-          Blocking feature — prevents buildings, mutually exclusive with ◆ and ✦
-        </span>
       </div>
     </div>
   </div>
