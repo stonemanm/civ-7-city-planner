@@ -574,7 +574,7 @@ const RightSidebar = () => (
       <div>
         <div>
           <span style={{ color: "#9b59b6" }}>♪ Culture</span>
-          {"  "}
+          {" / "}
           <span style={{ color: "#e67e22" }}>☺ Happiness</span>
         </div>
         <div className="text-slate-500 pl-2 text-xs leading-relaxed mt-0.5">
@@ -584,7 +584,7 @@ const RightSidebar = () => (
       <div>
         <div>
           <span style={{ color: "#27ae60" }}>✿ Food</span>
-          {"  "}
+          {" / "}
           <span style={{ color: "#f1c40f" }}>◉ Gold</span>
         </div>
         <div className="text-slate-500 pl-2 text-xs leading-relaxed mt-0.5">
@@ -593,9 +593,9 @@ const RightSidebar = () => (
       </div>
       <div>
         <div>
-          <span style={{ color: "#2eaff5" }}>⬡ Science</span>
-          {"  "}
-          <span style={{ color: "#95a5a6" }}>⚙ Production</span>
+          <span style={{ color: "#2eaff5" }}>⚗︎ Science</span>
+          {" / "}
+          <span style={{ color: "#95a5a6" }}>⚒ Production</span>
         </div>
         <div className="text-slate-500 pl-2 text-xs leading-relaxed mt-0.5">
           +1 per adjacent Resource tile or Wonder building
