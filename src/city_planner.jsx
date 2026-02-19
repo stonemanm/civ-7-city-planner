@@ -594,8 +594,8 @@ const RightSidebar = () => (
       <div>
         <div>
           <span style={{ color: "#2eaff5" }}>⬡ Science</span>
-          <span style={{ color: "#95a5a6" }}>⚙ Production</span>
           {"  "}
+          <span style={{ color: "#95a5a6" }}>⚙ Production</span>
         </div>
         <div className="text-slate-500 pl-2 text-xs leading-relaxed mt-0.5">
           +1 per adjacent Resource tile or Wonder building
